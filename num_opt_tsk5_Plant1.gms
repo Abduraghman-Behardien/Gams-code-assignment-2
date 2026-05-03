@@ -48,43 +48,43 @@ Cost          Objective function to be minimized;
 Cost..z=e=QHU;
 
 *Entahlpy balance in interval 1
-INT1..QHU-R1-450=E=0;
+INT1..QHU-R1-420=E=0;
 
 *Entahlpy balance in interval 2
-INT2..R1-R2-350=E=0;
+INT2..R1-R2-340=E=0;
 
 *Entahlpy balance in interval 3
-INT3..R2-R3-980=E=0;
+INT3..R2-R3-900=E=0;
 
 *Entahlpy balance in interval 4
-INT4..R3-R4-990=E=0;
+INT4..R3-R4-870=E=0;
 
 *Entahlpy balance in interval 5
-INT5..R4-R5-300=E=0;
+INT5..R4-R5-220=E=0;
 
 *Entahlpy balance in interval 6
-INT6..R5-R6+70=E=0;
+INT6..R5-R6+110=E=0;
 
 *Entahlpy balance in interval 7
-INT7..R6-R7-50=E=0;
+INT7..R6-R7-20=E=0;
 
 *Enthalpy balance in interval 8
-INT8..R7-R8-1650=E=0;
+INT8..R7-R8-1320=E=0;
 
 *Enthalpy balance in interval 9
-INT9..R9-R8-1530=E=0;
+INT9..R8-R9-1260=E=0;
 
 *Enthalpy balance in interval 10
-INT10..R10-R9+60=E=0;
+INT10..R9-R10+120=E=0;
 
 *Enthalpy balance in interval 11
-INT11..R11-R10-390=E=0;
+INT11..R10-R11-300=E=0;
 
 *Enthalpy balance in interval 12
-INT12..R12-R11+160=E=0;
+INT12..R11-R12+150=E=0;
 
 *Enthalpy balance in interval 13
-INT13..R13-R12+280=E=0;
+INT13..R12-R13+280=E=0;
 
 *Enthalpy balance in interval 14
 INT14..R13-QCU+180=E=0;
